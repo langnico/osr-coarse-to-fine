@@ -1,0 +1,27 @@
+
+name: osr-coarse-to-fine
+
+channels:
+ - anaconda
+ - pytorch
+ - conda-forge
+ - defaults
+
+dependencies:
+ - python=3.9.13
+ - pillow 
+ - datasets
+ - matplotlib
+ - numpy==1.22.4
+ - pandas
+ - scikit-learn==0.24.2
+ - scipy
+ - timm
+ - pytorch=1.12.1=py3.9_cuda11.3_cudnn8.3.2_0
+ - torchmetrics
+ - torchvision=0.13.1
+ - tqdm
+ - wandb
+ - jupyter
+ - pip:
+     - uncertainty-calibration==0.1.2

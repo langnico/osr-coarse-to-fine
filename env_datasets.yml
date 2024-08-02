@@ -1,0 +1,18 @@
+
+name: osr-datasets
+
+channels:
+ - anaconda
+ - pytorch
+ - conda-forge
+ - defaults
+
+dependencies:
+ - python=3.9.13
+ - pillow
+ - numpy==1.22.4
+ - scikit-learn==0.24.2
+ - pytorch=1.12.1=py3.9_cuda11.3_cudnn8.3.2_0
+ - torchvision=0.13.1
+ - jupyter
+ - ipykernel
